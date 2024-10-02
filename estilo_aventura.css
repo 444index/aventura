@@ -1,0 +1,55 @@
+.bruno-ace-regular {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(131, 175, 168);
+    color: white;
+}
+
+h1 {
+    font-family: 'Bruno Ace', sans-serif;
+    text-align: center;
+}
+
+.colores {
+    background-image: linear-gradient(to right, purple, violet, orange, beige);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenedor-botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.b1 {
+    background-color: rgb(91, 91, 216);
+}
+
+.b2 {
+    background-color: rgb(172, 160, 146);
+}
+
+div {
+    text-align: center;
+    width: 80%;
+    margin:  0 auto;
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
